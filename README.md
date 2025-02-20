@@ -4,6 +4,7 @@ Overview
 
 This project demonstrates how to securely hide and extract secret messages within an image using steganography. The approach modifies pixel values in an image to embed a message that can later be retrieved using a passcode.
 
+
 Features
 
 Encrypts a secret message into an image
@@ -13,6 +14,7 @@ Uses pixel manipulation to hide text data
 Requires a passcode for decryption
 
 Outputs a modified image with hidden data
+
 
 Requirements
 
@@ -24,6 +26,7 @@ OpenCV (cv2 library)
 
 OS module (built-in with Python)
 
+
 Installation
 
 Clone the repository:
@@ -34,6 +37,7 @@ cd steganography
 Install dependencies:
 
 pip install opencv-python
+
 
 Usage
 
@@ -59,6 +63,7 @@ Enter the correct passcode.
 
 If the passcode is correct, the hidden message will be displayed.
 
+
 Notes
 
 The encryption method is basic and modifies pixel values directly.
@@ -67,13 +72,16 @@ The implementation does not use sophisticated cryptographic methods.
 
 Use with caution, as it is not resistant to advanced steganalysis techniques.
 
+
 License
 
 This project is open-source under the MIT License.
 
+
 Author
 
 P. Kalpana
+
 
 Contribution
 
